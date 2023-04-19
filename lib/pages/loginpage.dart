@@ -13,6 +13,7 @@ class _LoginPageState extends State<LoginPage> {
     return Material(
       color: Colors.white,
       child:SingleChildScrollView(
+        padding: EdgeInsets.all(8),
         child: Column(
           children: [Image.asset("assets/images/loginpage_images.png", fit:BoxFit.cover),
         const SizedBox(
